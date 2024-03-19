@@ -1,13 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
-namespace ConsoleApplication1;
 
-public class BRUHHH
-{
-    public static void Main(string[] args)
-    {
-        for (int i = 0; i < 1; i++)
-        {
-            Console.WriteLine("BRUH!");
-        }
-    }
-}
+
+using ConsoleApplication1;
+
+Container liquid = new LiquidContainer(123.2);
+
+List<int> numbs = new List<int>(){1,23,4,5,346};
+
+Dictionary<PossibleProducts,double> dictionary = new Dictionary<PossibleProducts, double>();
